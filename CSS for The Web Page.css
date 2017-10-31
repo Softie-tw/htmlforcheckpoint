@@ -1,0 +1,36 @@
+body{
+  background-image: url("pic/puppy.jpg");
+}
+
+#navbar{
+  float:left;
+  width:200px;
+  background-color:lightgray;
+  font-size: 30px;
+  margin-right: 50px;
+}
+.button{
+  display:block;
+  color:green;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 1px;
+}
+.button:hover{
+  display:block;
+  background-color: green;
+  font-size: 30px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+#photo{
+  position: relative;
+  float: left;
+  margin-right: 5px;
+  height:200px;
+  width: 200px;
+}
+#wpho{
+  position: relative;
+}

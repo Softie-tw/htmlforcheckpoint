@@ -8,6 +8,7 @@ body{
   background-color:lightgray;
   font-size: 30px;
   margin-right: 50px;
+  height: 1000px;
 }
 .button{
   display:block;
@@ -31,13 +32,15 @@ body{
   height:200px;
   width: 200px;
 }
-#wpho{
+.wpho{
   position: relative;
+  font-family: Arial;
+  font-size: 25px;
 }
 
 .gallbox{
   position:absolute;
-  top: 500px;
+  top: 1200px;
   left:300px;
   float:left;
 
@@ -48,7 +51,7 @@ body{
     width: 400px;
     background-color: white;
     float:left;
-    margin-right: 20px;
+    margin: 20px;
 }
 div.transbox img{
   height:300px;

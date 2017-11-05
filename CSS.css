@@ -2,6 +2,10 @@ body{
   background-image: url("pic/puppy.jpg");
 }
 
+#title{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
 #navbar{
   float:left;
   width:200px;
@@ -39,9 +43,10 @@ body{
 }
 
 .gallbox{
-  position:absolute;
+  /*position:absolute;
   top: 1200px;
-  left:300px;
+  left:300px;*/
+  clear: both;
   float:left;
 
 }
